@@ -9,6 +9,7 @@
 import UIKit
 
 enum Animal: String, CaseIterable {
+    
     case dog, pig, cow, frog, cat, insects, sheep, crow, chicken
     
     init?(rawValue: String) {
