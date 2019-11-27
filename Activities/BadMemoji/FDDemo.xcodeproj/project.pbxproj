@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41462053238EE428009F6A60 /* ViewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41462052238EE428009F6A60 /* ViewUtilities.swift */; };
 		41D7394F22BB17A300F2AEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D7394E22BB17A300F2AEA7 /* AppDelegate.swift */; };
 		41D7395322BB17A300F2AEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D7395222BB17A300F2AEA7 /* ContentView.swift */; };
 		41D7395522BB17A500F2AEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D7395422BB17A500F2AEA7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41462052238EE428009F6A60 /* ViewUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtilities.swift; sourceTree = "<group>"; };
 		41D7394B22BB17A300F2AEA7 /* FDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D7394E22BB17A300F2AEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D7395222BB17A300F2AEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,13 +60,14 @@
 		41D7394D22BB17A300F2AEA7 /* FDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				41D7395922BB17A500F2AEA7 /* LaunchScreen.storyboard */,
+				41D7395422BB17A500F2AEA7 /* Assets.xcassets */,
+				41D7395C22BB17A500F2AEA7 /* Info.plist */,
 				41D7394E22BB17A300F2AEA7 /* AppDelegate.swift */,
 				41D7395222BB17A300F2AEA7 /* ContentView.swift */,
 				41D7396222BB17ED00F2AEA7 /* Views.swift */,
+				41462052238EE428009F6A60 /* ViewUtilities.swift */,
 				41D7396422BB22EF00F2AEA7 /* Faces.swift */,
-				41D7395422BB17A500F2AEA7 /* Assets.xcassets */,
-				41D7395922BB17A500F2AEA7 /* LaunchScreen.storyboard */,
-				41D7395C22BB17A500F2AEA7 /* Info.plist */,
 				41D7395622BB17A500F2AEA7 /* Preview Content */,
 			);
 			path = FDDemo;
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D7396522BB22EF00F2AEA7 /* Faces.swift in Sources */,
+				41462053238EE428009F6A60 /* ViewUtilities.swift in Sources */,
 				41D7396322BB17ED00F2AEA7 /* Views.swift in Sources */,
 				41D7394F22BB17A300F2AEA7 /* AppDelegate.swift in Sources */,
 				41D7395322BB17A300F2AEA7 /* ContentView.swift in Sources */,
