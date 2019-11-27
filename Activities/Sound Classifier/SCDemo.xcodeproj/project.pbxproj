@@ -15,6 +15,7 @@
 		4127A88A22B0B4EE0058A6E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4127A88822B0B4EE0058A6E1 /* LaunchScreen.storyboard */; };
 		4127A89222B0B4F90058A6E1 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127A89122B0B4F90058A6E1 /* Animals.swift */; };
 		414B6FF522B228ED00D36576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414B6FF422B228ED00D36576 /* Assets.xcassets */; };
+		419E0283238ED37700E7F452 /* ViewUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E0282238ED37700E7F452 /* ViewUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		4127A88B22B0B4EE0058A6E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4127A89122B0B4F90058A6E1 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 		414B6FF422B228ED00D36576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419E0282238ED37700E7F452 /* ViewUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,14 +75,15 @@
 		4127A87C22B0B4ED0058A6E1 /* SCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				412742A822B3D1A300A9C39E /* AnimalSounds.mlmodel */,
-				4127A87D22B0B4ED0058A6E1 /* AppDelegate.swift */,
-				4127A88122B0B4ED0058A6E1 /* ViewController.swift */,
-				4127A89122B0B4F90058A6E1 /* Animals.swift */,
+				4127A88822B0B4EE0058A6E1 /* LaunchScreen.storyboard */,
 				4127A88322B0B4ED0058A6E1 /* Main.storyboard */,
 				414B6FF422B228ED00D36576 /* Assets.xcassets */,
-				4127A88822B0B4EE0058A6E1 /* LaunchScreen.storyboard */,
 				4127A88B22B0B4EE0058A6E1 /* Info.plist */,
+				4127A87D22B0B4ED0058A6E1 /* AppDelegate.swift */,
+				419E0282238ED37700E7F452 /* ViewUtilities.swift */,
+				4127A88122B0B4ED0058A6E1 /* ViewController.swift */,
+				4127A89122B0B4F90058A6E1 /* Animals.swift */,
+				412742A822B3D1A300A9C39E /* AnimalSounds.mlmodel */,
 				412742AF22B3D27700A9C39E /* Audio.swift */,
 			);
 			path = SCDemo;
@@ -163,6 +166,7 @@
 				412742A922B3D1A300A9C39E /* AnimalSounds.mlmodel in Sources */,
 				4127A87E22B0B4ED0058A6E1 /* AppDelegate.swift in Sources */,
 				412742B022B3D27700A9C39E /* Audio.swift in Sources */,
+				419E0283238ED37700E7F452 /* ViewUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
